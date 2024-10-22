@@ -1,0 +1,21 @@
+---
+galaxy_info:
+  namespace: vbotka
+  role_name: freebsd_timezone
+  author: Vladimir Botka
+  description: FreeBSD. Configure timezone.
+  company: https://botka.link
+  github_branch: master
+  license: BSD
+  min_ansible_version: "2.11"
+  platforms:
+    - name: FreeBSD
+      versions:
+        - 12.1
+  galaxy_tags:
+    - timezone
+    - ntpdate
+    - freebsd
+dependencies: []
+collections: []
+...

@@ -1,0 +1,11 @@
+---
+# tasks for freebsd_timezone
+
+- import_tasks: rcconf.yml
+  tags: tz_rcconf
+
+- import_tasks: timezone.yml
+  tags: tz_timezone
+
+# EOF
+...
